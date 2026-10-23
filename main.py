@@ -50,6 +50,6 @@ def main():
     print_stat(good, bad, len(lines), stat)
     save_results(good, bad)
     print("\nСохранено: ok.txt и errors.txt")
-
+    print("Программа завершена")
 if __name__ == "__main__":
     main()
